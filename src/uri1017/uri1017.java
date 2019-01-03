@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package uri1016;
+package uri1017;
 
 import java.util.Scanner;
 
@@ -11,11 +11,14 @@ import java.util.Scanner;
  *
  * @author magno
  */
-public class uri1016 {
+public class uri1017 {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
+        int t = sc.nextInt();
+        int m = sc.nextInt();
+        float aux = t * m;
         sc.close();
-        System.out.printf("%d minutos\n", 150/60 * a);
+        System.out.printf("%.3f\n", aux / 12);
     }
 }
